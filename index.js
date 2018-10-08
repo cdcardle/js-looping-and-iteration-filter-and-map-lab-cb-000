@@ -3,5 +3,5 @@ function driversWithRevenueOver(drivers, amount) {
 }
 
 function driverNamesWithRevenueOver(drivers, amount) {
-  return driversWithRevenueOver(drivers, amount).map(drivers => driver.name)
+  return driversWithRevenueOver(drivers, amount).map(driver => driver.name);
 }
