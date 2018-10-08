@@ -1,3 +1,5 @@
 function driversWithRevenueOver(drivers, amount) {
-  return drivers.filter((driver) => driver.revenue >= amount.slice(0))
+  return drivers.filter(function(driver) {
+    driver.revenue >= amount.slice(0));
+  }
 }
